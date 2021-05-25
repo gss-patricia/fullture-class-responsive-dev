@@ -1,0 +1,132 @@
+header {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  box-shadow: 2px 5px 16px 0px #cecece;
+  margin-bottom: 50px;
+}
+
+main {
+  padding: 0 50px;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.my-profile img,
+.project img {
+  border-radius: 50%;
+  margin-right: 2rem;
+  width: 200px;
+  height: 200px;
+}
+
+.who-i-am,
+.projects {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.who-i-am-text,
+.project-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  background-color: #000;
+  opacity: 0.7;
+  height: 70px;
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 8px;
+  justify-content: center;
+}
+
+.social-media {
+  display: flex;
+  padding: 10px 20px 0;
+  width: 75%;
+}
+
+.social-media-item {
+  margin-right: 20px;
+}
+
+/** Icons **/
+.twitter,
+.linked-in {
+  width: 50px;
+  height: 50px;
+}
+
+/** Utilities **/
+.bold {
+  font-weight: 600;
+}
+
+.info-color {
+  color: #cf871a;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  width: 100%;
+}
+
+/** PHONE **/
+@media (min-width: 320px) and (max-width: 600px) {
+  .logo {
+    margin-right: 5px;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  .menu-item {
+    padding: 0 5px;
+    font-weight: 900;
+  }
+
+  .who-i-am,
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .my-profile,
+  .project {
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    position: relative;
+  }
+}
