@@ -130,3 +130,7 @@ footer {
     position: relative;
   }
 }
+
+a {
+  color: red;
+}
